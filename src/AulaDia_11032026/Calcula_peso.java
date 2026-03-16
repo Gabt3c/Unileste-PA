@@ -14,7 +14,7 @@ public class Calcula_peso {
         //entrada
         System.out.println("Digite seu peso em kg: ");
         pesokg = ler.nextFloat();
-        pesog = pesokg * 0.001f; // Conversão para gramas
+        pesog = pesokg * 1000f; // Conversão para gramas
         System.out.println("Seu peso em gramas é: " + pesog + " !");
         ler.close();
     }
