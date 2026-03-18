@@ -18,4 +18,3 @@ public class Calcula_peso {
         System.out.println("Seu peso em gramas é: " + pesog + " !");
         ler.close();
     }
-}
