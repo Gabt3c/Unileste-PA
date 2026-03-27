@@ -7,7 +7,7 @@ public class Calculo_Idade {
     Scanner Data;
     Data = new Scanner(System.in);
     
-    System.out.println("Digite sua o ano em que você nasceu: ");
+    System.out.println("Digite o ano em que você nasceu: ");
     dt = Data.nextInt();
     sub = 2026 - dt;
     System.out.println("Você completará " + sub + " anos em 2026 !");
