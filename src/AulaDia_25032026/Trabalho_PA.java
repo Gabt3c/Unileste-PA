@@ -18,7 +18,7 @@ Scanner ler; ler = new Scanner(System.in);
         System.out.println("Seu novo salário é: " + calculo);
     }
         
-    if (codcargo == 102) {
+    else if (codcargo == 102) {
         calculo = vlrsal + (vlrsal * 0.20);
         System.out.println("Seu novo salário é: " + calculo);
     }
