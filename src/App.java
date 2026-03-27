@@ -23,7 +23,9 @@ public class App
       ler = new Scanner(System.in);
     //variáveis de valores
     int num1;
+    num1 = 10;
     int num2;
+    num2 = 3;
     // varíaveis de cálculo
     int soma; 
     int mult;
