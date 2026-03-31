@@ -27,11 +27,8 @@ public class Atividade4 {
           paymetod = scanner.nextInt();
 
           if (paymetod != 1 && paymetod != 0) {
-            System.out.println("Forma de pagamento inválida, insira um dos métodos de pagamento citados");
-             System.out.println("1. À vista (Pix ou dinheiro)");
-             System.out.println("0. Cheque (30 dias)");
-             paymetod = scanner.nextInt();          
-        }
+            System.out.println("Forma de pagamento inválida");
+          }
           else if (paymetod == 1) {
             total = (valprod1 + valprod2 + valprod3) * 0.95; //5% de desconto
             System.out.printf("O valor para pagamento à vista será de: R$%.2f", total);
