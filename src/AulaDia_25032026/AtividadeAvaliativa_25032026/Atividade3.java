@@ -28,10 +28,5 @@ public class Atividade3 {
 
       System.out.println("\n" + name + ", sua comissão de venda em cima de "+qtd+" unidades do item "+codpc+" será de: R$"+calcArr+"!");
       scanner.close();
-
-    
-
-
-
     }
 }
