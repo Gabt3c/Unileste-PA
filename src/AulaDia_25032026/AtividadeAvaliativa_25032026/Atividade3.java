@@ -1,6 +1,6 @@
 package AulaDia_25032026.AtividadeAvaliativa_25032026;
 import java.util.Scanner;
-import java.util.Locale;
+import java.util.Locale; //esta atividade foi realizada em meu computador local, que está em português, fiz isso para manter o idioma do código em inglês e manter um padrão
 public class Atividade3 {
     public static void main(String[] args) {
     //variables
