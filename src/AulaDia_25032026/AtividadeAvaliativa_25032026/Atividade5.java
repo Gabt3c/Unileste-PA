@@ -22,15 +22,15 @@ public class Atividade5 {
         if (qtdprod<=5) {
             discount = amount * 0.2;
             totvalue = amount * 0.98;
-            System.out.println("Normalmente, o valor do total da compra do " +descprod+ " seria: R$" +amount);
-            System.out.println("Entretanto, graças ao volume comprado, você é elegível a ter " +discount+ "% de desconto!");
+            System.out.println("Normalmente, o valor do total da compra de " +descprod+ " seria: R$" +amount);
+            System.out.println("Entretanto, graças ao volume comprado, você é elegível a " +discount+ "% de desconto!");
             System.out.printf("O novo valor de sua compra é: R$%.2f", totvalue);
             }
         else if (qtdprod>5) {
             discount = amount * 0.3;
              totvalue = amount * 0.97;
-            System.out.println("Normalmente, o valor do total da compra do " +descprod+ " seria: R$" +amount);
-            System.out.println("Entretanto, graças ao volume comprado, você é elegível a ter " +discount+ "% de desconto!");
+            System.out.println("Normalmente, o valor do total da compra de " +descprod+ " seria: R$" +amount);
+            System.out.println("Entretanto, graças ao volume comprado, você é elegível a " +discount+ "% de desconto!");
             System.out.printf("O novo valor de sua compra é: R$%.2f", totvalue);
             
         }
