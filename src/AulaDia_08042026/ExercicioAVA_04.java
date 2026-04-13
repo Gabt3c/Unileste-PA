@@ -13,12 +13,32 @@ public class ExercicioAVA_04 {
         System.out.println("Insira o valor de z: ");
         z=sc.nextInt();
         //Conditions
-        if(x > y && x > z)
-            else if (y > z) {
-        System.out.println("Ordem crescente dos valores é: " +x+ " " +y+ " " +z+);
+        //X Major case
+        if(x > y && x > z){
+            if (y > z){
+            System.out.println("A ordem crescente dos valores será x: " +x+ ", y: " +y+ ", z: " +z);
+             }
+            else{System.out.println("A ordem crescente dos valores será x: " +x+ ", z: " +z+ ", y: " +y);}
         }
-            else{
-                System.out.println("Ordem crescente dos valores é: " +x+ " " +z+ " " +y+);
+        //Y Major case
+        if (y > x && y > z){
+            if (x > z){
+                System.out.println("A ordem crescente dos valores será y: " +y+ ", x: " +x+ ", z: "+z);
             }
+            else{System.out.println("A ordem crescente dos valores será y: " +y+ ", z: " +z+ ", x:" +x);}
+            }
+        //Z Major case
+        if (z > x && z > y){
+            if (x > y){
+                System.out.println("A ordem crescente dos valores será z: " +z+ ", x: " +x+ ", y: "+y);
+            }
+            else{System.out.println("A ordem crescente dos valores será z: " +z+ ", y: " +y+ ", x: "+x);}
+        }
+        //Equal values
+        if (x==y && y==z){
+            System.out.println("Todos os valores são iguais.");
+        }
+        sc.close();
     }
 }
+
