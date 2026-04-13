@@ -16,26 +16,26 @@ public class ExercicioAVA_04 {
         //X Major case
         if(x > y && x > z){
             if (y > z){
-            System.out.println("A ordem crescente dos valores será x: " +x+ ", y: " +y+ ", z: " +z);
+            System.out.println("A ordem crescente dos valores será z: " +z+ ", y: " +y+ ", x: " +x);
              }
-            else{System.out.println("A ordem crescente dos valores será x: " +x+ ", z: " +z+ ", y: " +y);}
+            else{System.out.println("A ordem crescente dos valores será y: " +y+ ", z: " +z+ ", x: " +x);}
         }
         //Y Major case
-        if (y > x && y > z){
+        if(y > x && y > z){
             if (x > z){
-                System.out.println("A ordem crescente dos valores será y: " +y+ ", x: " +x+ ", z: "+z);
+                System.out.println("A ordem crescente dos valores será z: " +z+ ", x: " +x+ ", y: "+y);
             }
-            else{System.out.println("A ordem crescente dos valores será y: " +y+ ", z: " +z+ ", x:" +x);}
+            else{System.out.println("A ordem crescente dos valores será x: " +x+ ", z: " +z+ ", y:" +y);}
             }
         //Z Major case
         if (z > x && z > y){
             if (x > y){
-                System.out.println("A ordem crescente dos valores será z: " +z+ ", x: " +x+ ", y: "+y);
+                System.out.println("A ordem crescente dos valores será y: " +y+ ", x: " +x+ ", z: "+z);
             }
-            else{System.out.println("A ordem crescente dos valores será z: " +z+ ", y: " +y+ ", x: "+x);}
+            else{System.out.println("A ordem crescente dos valores será x: " +x+ ", y: " +y+ ", z: "+z);}
         }
         //Equal values
-        if (x==y && y==z){
+        else if (x==y && y==z){
             System.out.println("Todos os valores são iguais.");
         }
         sc.close();
