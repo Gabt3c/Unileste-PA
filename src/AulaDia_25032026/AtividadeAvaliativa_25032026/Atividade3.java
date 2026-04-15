@@ -1,6 +1,6 @@
 package AulaDia_25032026.AtividadeAvaliativa_25032026;
 import java.util.Scanner;
-import java.util.Locale; //esta atividade foi realizada em meu computador local, que está em português, fiz isso para manter o idioma do código em inglês e manter um padrão
+import java.util.Locale;
 public class Atividade3 {
     public static void main(String[] args) {
     //variables
@@ -29,4 +29,4 @@ public class Atividade3 {
       System.out.println("\n" + name + ", sua comissão de venda em cima de "+qtd+" unidades do item "+codpc+" será de: R$"+calcArr+"!");
       scanner.close();
     }
-}
+}                                                                          
