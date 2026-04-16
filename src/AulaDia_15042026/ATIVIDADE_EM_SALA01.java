@@ -26,6 +26,8 @@ public class ATIVIDADE_EM_SALA01 {
             case "E":
                 System.out.println("Insuficiente.");
                 break;
+            default:
+                System.out.println("Please insert a valid option.");
         }
         sc.close();
     }
