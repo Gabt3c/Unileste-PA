@@ -1,4 +1,4 @@
-package AulaDia_08042026;
+package ABRIL.AulaDia_08042026;
 import java.util.Scanner;
 public class ExercicioAVA_04 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package AulaDia_22042026;
+package ABRIL.AulaDia_22042026;
 public class AtividadeEmSala02AVA {
     public static void main(String[] args) {
         //variables

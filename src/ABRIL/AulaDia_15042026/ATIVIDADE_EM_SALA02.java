@@ -1,4 +1,4 @@
-package AulaDia_15042026;
+package ABRIL.AulaDia_15042026;
 import java.util.Scanner;
 public class ATIVIDADE_EM_SALA02 {
     public static void main(String[] args) {
