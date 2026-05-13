@@ -1,4 +1,4 @@
-package MAIO;
+package MAIO.AulaDia_06052026;
 import java.util.Scanner;
 /*O intuito do exercício é montar um sistema que some todos os valores inseridos pelo usuário*/
 public class AtividadeAVA1 {
