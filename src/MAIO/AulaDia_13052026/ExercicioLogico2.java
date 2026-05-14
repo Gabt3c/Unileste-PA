@@ -9,10 +9,12 @@ public class ExercicioLogico2 {
     do{
         System.out.println("Se estiver pronto para começar, pode digitar qualquer número diferente de 0");
         Option=sc.nextInt();
+        
         System.out.println("Insira o primeiro valor desejado: ");
         float x=sc.nextFloat();
         System.out.println("Insira o segundo valor desejado: ");
         float y=sc.nextFloat();
+        System.out.println();
 
         float media = (x+y) / 2;
         System.out.println("A média dos valores é:" +media);
@@ -22,3 +24,6 @@ public class ExercicioLogico2 {
     sc.close();
     }
 }
+
+
+//UM UPGRADE DESTE EXERCÍCIO SERIA PERMITIR QUE O PRÓPRIO USUÁRIO DEFINA QUANTOS ALGARISMOS DESEJA DIGITAR
