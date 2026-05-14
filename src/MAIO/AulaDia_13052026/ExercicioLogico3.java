@@ -16,8 +16,11 @@ public class ExercicioLogico3 {
 
         if(x>y){
             System.out.println("O primeiro algarismo digitado foi o maior!! Seu valor é: "+x);
+            System.out.println("O segundo algarismo digitado foi o menor!! Seu valor é: "+y);
         }
-        else{System.out.println("O segundo algarismo digitado foi o maior!! Seu valor é: "+y);}
+        else{System.out.println("O segundo algarismo digitado foi o maior!! Seu valor é: "+y);
+            System.out.println("O primeiro algarismo digitado foi o menor!! Seu valor é: "+x);
+        }
     }
     while(Option!=0);
     System.out.println("--------FIM--------");
@@ -26,3 +29,4 @@ public class ExercicioLogico3 {
     }
 
 }
+///UM UPGRADE DESSE EXERCÍCIO SERIA PERMITIR QUE O PRÓPRIO USUÁRIO DEFINA QUANTOS ALGARISMOS DESEJA DIGITAR
