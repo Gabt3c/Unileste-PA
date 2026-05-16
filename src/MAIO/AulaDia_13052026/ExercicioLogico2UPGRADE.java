@@ -21,6 +21,6 @@ public class ExercicioLogico2UPGRADE {
         System.out.println("\nVocê fez "+cont+" inserções.");
         System.out.println("\nA soma dos valores inseridos será "+sum+ " e a média deles é "+med);
         System.out.println("---------FIM---------");
-        sc.close();
+        sc.close(); 
     }
 }
