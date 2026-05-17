@@ -2,19 +2,20 @@ package MAIO.AulaDia_13052026;
 import java.util.Scanner;
 public class ExercicioLogico3UPGRADE {
     public static void main(String[] args) {
-        int x, cont=0, menorOrdem=0, menorValor=0, maiorOrdem=0, maiorValor=0;
+        int x, cont=1, menorOrdem=0, menorValor=0, maiorOrdem=0, maiorValor=0;
         Scanner sc = new Scanner(System.in);
 
         do{
             System.out.println("Insira o valor inteiro desejado e, quando quiser parar o comparador, digite 0.");
             x=sc.nextInt();
-            
-            if (cont == 0){
+            if (cont == 1){
                 maiorValor=x;
                 menorValor=x;
+                maiorOrdem=cont;
+                menorOrdem=cont;
             }
             else{
-                if(x>maiorValor){
+                if(x>=maiorValor && x!=0){
                 maiorValor=x;
                 maiorOrdem=cont;
                 }
@@ -26,7 +27,8 @@ public class ExercicioLogico3UPGRADE {
             cont++;
     }
     while(x!=0);
-    System.out.println("Menor Ordem: "+menorOrdem+"\nMenor Valor: "+menorValor+"\nMaior Ordem: "+maiorOrdem+"\nMaior Valor: "+maiorValor);
-    sc.close();
+    System.out.println("O menor valor inserido foi o número: "+menorValor+" na "+menorOrdem+"° posição.");
+    System.out.print("O menor valor inserido foi o número: "+maiorValor+" na "+maiorOrdem+"° posição.");
+    sc.close(); 
   }
 }
