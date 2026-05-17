@@ -18,7 +18,7 @@ public class ExercícioLogico5 {
         }
         while(alunos<25);
         mediaNota = soma / alunos;
-        System.out.println("A média da turma foi: "+mediaNota);
+        System.out.println("\nA média da turma foi: "+mediaNota);
         sc.close();
     }
 
