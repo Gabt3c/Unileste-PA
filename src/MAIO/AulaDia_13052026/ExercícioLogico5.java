@@ -13,8 +13,7 @@ public class ExercícioLogico5 {
             alunos++;
             System.out.println("Insira a nota do "+alunos+"° aluno.");
             nota=sc.nextDouble();
-            soma=soma+nota;
-                
+            soma=soma+nota;      
         }
         while(alunos<25);
         mediaNota = soma / alunos;
