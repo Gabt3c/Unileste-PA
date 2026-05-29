@@ -10,9 +10,9 @@ public class Atividade3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        char profissao, maiorProfissao;
-        int qt=1, tecVelho=0, qtEng=0, maiorIdade, contId=0;
-        double idade, maiorId=0, mediaEng=0, porcentagemJovem;
+        char profissao, maiorProfissao = 'A';
+        int qt=1, tecVelho=0, qtEng=0;
+        double idade, maiorId=0, mediaEng=0, porcentagemJovem=0, contId=0, idEng=0;
 
         do{System.out.print("Insira sua profissão, (T)Técnico ou (E)Engenheiro: ");
         profissao=sc.next().charAt(0);
@@ -31,17 +31,21 @@ public class Atividade3 {
 
         if (profissao == 'E'){
           qtEng++;
+          idEng=idEng+idade;
         }
 
-        if (idade<=25) {
+        if (idade<25) {
           contId++;
-          porcentagemJovem = (contId/5)*100;
         }
         
         }
         while(qt<=5);
-        mediaEng = (qtEng/qt) * 100;
-        System.out.println(profissao+" "+qt);
+        porcentagemJovem = (contId/5)*100;
+        mediaEng = idEng/qtEng;
+        System.out.println("Tecnicos velhos: "+tecVelho);
+        System.out.println("Maior idade: "+maiorId+"\nMaior Profissão: "+maiorProfissao);
+        System.out.println("Média de idade dos engenheiros: "+mediaEng);
+        System.out.println("Porcentagem de funcionários jovens: "+porcentagemJovem);
         sc.close();
     }
 }
