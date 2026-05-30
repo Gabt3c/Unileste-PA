@@ -1,4 +1,4 @@
-package MAIO.AulaDia27052026.ATIVIDADES_ava;
+package MAIO.AulaDia_27052026.ATIVIDADES_ava;
 /*O Objetido deste algoritmo é obter nome e nota de 20 alunos,
 calcular a média da turma e depois informar quais são os alunos
 que obtiveram nota acima da média calculada(Primeiro exercício praticando o uso de vetores) */

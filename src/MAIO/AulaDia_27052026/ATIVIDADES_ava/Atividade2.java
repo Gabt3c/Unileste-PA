@@ -1,4 +1,4 @@
-package MAIO.AulaDia27052026.ATIVIDADES_ava;
+package MAIO.AulaDia_27052026.ATIVIDADES_ava;
 /*O objetido deste algoritmo é ler o nome e a idade de 5 pessoas e armazene em vetores,
  depois escreva o nome e a idade da pessoa mais nova.*/
 import java.util.Scanner;

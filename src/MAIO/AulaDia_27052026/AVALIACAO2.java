@@ -1,4 +1,4 @@
-package MAIO.AulaDia27052026;
+package MAIO.AulaDia_27052026;
 
 import java.util.Scanner;
 
