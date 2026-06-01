@@ -26,17 +26,13 @@ public class Atividade2 {
             idadeJovem = idade[x];
          }
         }
-<<<<<<< HEAD:src/MAIO/AulaDia_27052026/ATIVIDADES_ava/Atividade2.java
-        }
+        
         System.out.println("Nome e idade do aluno: "+nome[0]+", "+idade[0]);
         System.out.println("Nome e idade do aluno: "+nome[1]+", "+idade[1]);
         System.out.println("Nome e idade do aluno: "+nome[2]+", "+idade[2]);
         System.out.println("Nome e idade do aluno: "+nome[3]+", "+idade[3]);
         System.out.println("Nome e idade do aluno: "+nome[4]+", "+idade[4]);
         System.out.println("A pessoa mais jovem é: "+nomeJovem+" com "+idadeJovem+" anos de idade.");
-=======
-        System.out.println("A pessoa mais jovem é "+nomeJovem+", com "+idadeJovem+" ano(s) de idade.");
->>>>>>> a173c65 (Pequena correção de espaçamento):src/MAIO/AulaDia27052026/ATIVIDADES_ava/Atividade2.java
         sc.close();
     }
 }
